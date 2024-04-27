@@ -49,6 +49,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
                     .filter((call) => call.recordings.length > 0)
                     .flatMap((call) => call.recordings)
 
+                //@ts-ignore
                 setRecordings(recordings)
             } catch (err) {
                 toast({
