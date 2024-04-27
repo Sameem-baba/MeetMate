@@ -37,7 +37,7 @@ const MobileNav = () => {
                             height={32}
                             className='max-sm:size-10'
                         />
-                        <p className='text-[26px] font-bold text-white max-sm:hidden'>Yoom</p>
+                        <p className='text-[26px] font-bold text-white max-sm:hidden'>MeetMate</p>
                     </Link>
 
                     <div className="h-[calc(100vh-72px)] flex flex-col justify-between overflow-y-auto ">
